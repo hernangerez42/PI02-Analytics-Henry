@@ -1,132 +1,102 @@
-<p align='center'>
-<img src ="https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png">
-<p>
-
 <h1 align='center'>
  <b>PROYECTO INDIVIDUAL Nº2</b>
 </h1>
- 
+
 # <h1 align="center">**`Accidentes aéreos`**</h1>
 
-<p align="center">
-<img src="https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fcdn.pixabay.com%2Fphoto%2F2016%2F09%2F15%2F16%2F13%2Fairplane-1671967_1280.jpg"  height=300>
-</p>
 
-¡Bienvenidos al último proyecto individual de la etapa de labs! En esta ocasión, deberán hacer un trabajo situándose en el rol de un ***Data Analyst***.
+¡Bienvenido al último proyecto individual de la etapa de labs! En esta ocasión, tuve que hacer un trabajo situándome en el rol de un Data Analyst.
 
+## **Introducción**
 
-## **Contexto**
+A lo largo de los años, desde 1900 hasta la actualidad, se ha observado una evolución significativa en el ámbito de la aviación y, lamentablemente, también en el registro de accidentes de aeronaves. Durante este periodo, hemos sido testigos de numerosos incidentes que han dejado una profunda huella en la historia de la aviación.
 
-Los accidentes aéreos son eventos inesperados e indeseados que involucran aeronaves y se producen daños físicos a personas o a la propia aeronave. Un accidente aéreo puede involucrar cualquier tipo de aeronave, incluyendo aviones comerciales, aviones privados, helicópteros, planeadores y globos aerostáticos.
+A principios del siglo XX, cuando la aviación estaba en sus primeras etapas de desarrollo, los accidentes eran frecuentes debido a la falta de experiencia, conocimiento y regulaciones adecuadas. Las aeronaves eran menos seguras y los pilotos a menudo se enfrentaban a desafíos técnicos desconocidos. Estos factores, combinados con las condiciones meteorológicas impredecibles, contribuyeron a un número significativo de accidentes mortales.
 
-Los accidentes aéreos pueden ser causados por diversos factores, como errores humanos, fallos de equipos, problemas meteorológicos, problemas de mantenimiento, fallas en la gestión del tráfico aéreo, problemas de diseño o problemas de fabricación. Y en cuanto a sus consecuencias, pueden ser tanto en términos de pérdidas humanas como económicas. 
+Con el paso del tiempo, la industria de la aviación comenzó a comprender la importancia de la seguridad y se implementaron medidas y regulaciones más estrictas. A medida que avanzaba la tecnología, los aviones se volvieron más sofisticados y se introdujeron sistemas de seguridad más avanzados. Esto condujo a una disminución gradual de los accidentes, aunque aún se producían incidentes de vez en cuando.
 
-Es por eso que la industria de la aviación, las autoridades reguladoras y los investigadores trabajan incansablemente para mejorar la seguridad de la aviación y prevenir futuros accidentes.
+La introducción de la aviación comercial en la segunda mitad del siglo XX trajo consigo un aumento en el número de vuelos y pasajeros. A pesar de este incremento, la seguridad aérea mejoró significativamente gracias a la implementación de estándares internacionales, avances en la formación de pilotos y tripulaciones, y el uso de tecnología más avanzada en la navegación y el control de vuelo.
 
-Por esto, el análisis de datos históricos de accidentes aéreos es fundamental para mejorar la seguridad de la aviación. La recopilación y el análisis sistemático de los datos de accidentes pueden ayudar a los investigadores a identificar patrones, tendencias y factores contribuyentes que podrían llevar a mejoras en la seguridad, desde ayudar a mejorar la capacitación de los pilotos y el personal de mantenimiento, así como a mejorar el diseño y la fabricación de aviones y equipos de aviación.
+Sin embargo, a pesar de los esfuerzos continuos para garantizar la seguridad en la aviación, los accidentes aéreos aún ocurren. Cada incidente es analizado meticulosamente para identificar las causas subyacentes y desarrollar medidas preventivas adicionales. Estos trágicos eventos han impulsado la colaboración global en materia de seguridad aérea y han llevado a mejoras continuas en la industria.
 
+En resumen, a medida que ha avanzado la aviación desde 1900 hasta la actualidad, hemos presenciado tanto avances significativos en la seguridad aérea como accidentes desafiantes. La industria de la aviación sigue esforzándose por garantizar que cada vuelo sea seguro y confiable, y aprendiendo de los errores del pasado para construir un futuro aún más seguro en los cielos.
 
-## **Rol a desarrollar**
+## **Objetivo del analisis**
 
-La **Organización de Aviación Civil Internacional (OACI)** es una organización intergubernamental que se dedica a promover la seguridad y eficiencia de la aviación civil internacional. Como parte de su misión, la OACI ha decidido llevar a cabo un proyecto de data analytics para analizar los accidentes aéreos de aviones en todo el mundo.
-
-El objetivo del proyecto es recopilar, analizar y visualizar datos relevantes sobre accidentes aéreos para identificar patrones y tendencias en la seguridad de la aviación civil. El proyecto se llevará a cabo mediante la utilización de técnicas de data analytics que usted ya conoce, para procesar y analizar datos de accidentes aéreos.
-
-Para llevar a cabo el proyecto, la OACI le proporciona los datos de accidentes de aviones, pero lo insta a usted, como parte del equipo de especialistas en data analytics, a que incluya otras fuentes de datos, como bases de datos gubernamentales, informes de la industria, informes de los medios de comunicación y otros recursos disponibles públicamente.
-
-El resultado final del proyecto será un dashboard interactivo que permita a los usuarios explorar los datos y obtener información sobre accidentes específicos, el cual deberá utilizar para presentar los hallazgos obtenidos de la información analizada.
-
-Dentro de este trabajo, con el fin de entender los datos y alinearlos con los objetivos de la organización, se le pide **visualizar** en su dashboard el siguientes KPI, junto a otros 3 adicionales que usted debe generar. 
-
-+ Reducir en 5% la tasa de mortalidad a nivel anual, siendo el número de fallecidos en los accidentes aéreos respecto al total de personas en los vuelos involucrados.
-
-*Nota: En la sección de material de apoyo se puede encontrar más información sobre los KPIs.*
-
-Se espera que el reporte y el dashboard proporcionen información valiosa a la industria de la aviación civil, los reguladores gubernamentales y otros interesados en la seguridad de la aviación. Con esta información, se podrán desarrollar medidas preventivas para reducir la incidencia de accidentes aéreos y mejorar la seguridad en la aviación civil a nivel mundial.
-
-## **Propuesta de trabajo**
- 
- **Requerimientos de aprobación**
-
-#### `Análisis Exploratorio de los datos` (_Exploratory Data Analysis = EDA_)
-
-El reporte debe incluir un resumen de estadísticas descriptivas de los datasets, análisis univariados (por ejemplo, distribución de variables numéricas), análisis bivariados (correlación entre variables numéricas y/o categóricas) y **cualquier análisis que le ayude al mejor entendimiento de los datos** (encontrar patrones, outliers y/o anomalías, entre otros). El reporte debe presentarse en un notebook (_.ipynb_) con adecuado uso de markdowns y comentarios.
-  
-_En caso de hacer uso de librerias como pandas_profiling, es indispensable acompañar los graficos con análisis propios._
-
-#### `Dashboard`
-
-Debe ser funcional y coherente con el análisis y la historia que vayan a relatar. **El archivo debe estar en su repositorio** (.pbix, .py o el que aplique).
-
-#### `KPIs`
-
-Se deben sugerir 3 KPIs y deben aparecer en el dashboard. Tenga en cuenta que deben tener relación con la historia que está contando. Asimismo, se espera que en la presentación explique el análisis y la funcionalidad de los KPIs sugeridos.
-
-#### :warning: `Análisis` :warning:
-
-No se calificará solamente la producción de gráficos con datos (dashboard), sino también los **análisis y conclusiones** que encuentren en ellos.
-  
-#### `Repositorio de GitHub`
-
-El repositorio debe contener un README principal donde se presente de forma general **su proyecto**. Presentar como propio el readme proporcionado por Henry será considerado como **insuficiente** para cumplir con este requerimiento.
-
-### _**Desafíate y no te quedes siendo Junior, sé Junior Advanced**_
-
-Pensando en alcanzar tu Boom, te recomendamos incorporar los siguientes desafíos para tener un portfolio mucho más completo y competitivo:
-
-- Crear una base de datos en un motor SQL, ingestar el csv procesado y utilizarla como fuente de datos de su dashboard en Power BI (o la herramienta de visualización que utilice).
-- Redactar un reporte de análisis con base en sus dashboards e incluirlo en el readme de sus repositorios. También debe incluir el análisis y la funcionalidad de los KPIs sugeridos.
-- Ejecutar scripts de python en la herramienta de visualización de datos escogida.
-- Cruce de datos con datasets complementarios.
-
-<sub> Nota: la realización de uno o más de estos ítems no es intercambiable con los requerimientos mínimos establecidos en la sección anterior "Propuesta de trabajo". Empiece con esta sección una vez haya cumplido con los requerimientos mínimos, a modo de desafiarse a usted mismo y destacar frente al resto.</sub>
-
-## Fuente de datos:
-**Obligatorio:**
-
-- Dataset principal, incluido en el repositorio del proyecto.
-
-**Complementario:**
-- [National Transportation Safety Board](https://www.ntsb.gov/safety/data/Pages/Data_Stats.aspx)
-- [Aviation Safety Network](https://aviation-safety.net/database/)
-- [Federal Aviation Administration](https://www.faa.gov/data_research/accident_incident)
-- Cualquier dataset de búsqueda propia que complemente y mejore el análisis.
+El objetivo del análisis en el rol de un Data Analyst consistía en utilizar técnicas y herramientas de análisis de datos para obtener información valiosa y relevante a partir de conjuntos de datos relacionados con la industria de la aviación. Mediante este análisis, se buscaba identificar patrones, tendencias y relaciones ocultas en los datos, con el fin de generar conocimientos que pudieran respaldar la toma de decisiones informadas y mejorar la seguridad y eficiencia en la aviación.
 
 
-
-<h1>Lo que tendremos en cuenta a la hora de evaluar:</h1>
-
-Serás evaluado en dos grandes áreas, ambas con igual peso entre si: `Tech` y `Soft`!
-
-**Las habilidades técnicas (Tech)** para este proyecto de analytics incluyen el tipo de herramientas utilizadas para la realización de dashboard (herramientas de **Business Intelligence** y/o DataViz), elección de **gráficas pertinentes** para la representación del dato y un dashboard **efectivo** (organización, uso de filtros y criterios estéticos y de diagramación dónde se ubican los filtros y visualizaciones, títulos adecuados, estandarización de idiomas, entre otros).
-
-**Las habilidades blandas (Soft)** para este proyecto tendrán en cuenta la **puntualidad y preparación para la demo**, su **comunicación oral y storytelling**, la forma en que cuentas tu historia (¿los datos duros que presentas son **útiles** para tu audiencia?) y finalmente (esto es MUY importante) :warning:**EL ANÁLISIS**:warning: (¿brindas un contexto?, ¿haces comparaciones con otros datos?, ¿tienes conclusiones interesantes y realizas análisis no triviales?).
-
-<sub>**Spoiler**: Te vamos a dar feedback y también vamos a evaluar tu capacidad de recepción a este :stuck_out_tongue: </sub>
+El objetivo del análisis en el rol de un Data Analyst consistía en utilizar técnicas y herramientas de análisis de datos para obtener información valiosa y relevante a partir de conjuntos de datos relacionados con la industria de la aviación. Mediante este análisis, se buscaba identificar patrones, tendencias y relaciones ocultas en los datos, con el fin de generar conocimientos que pudieran respaldar la toma de decisiones informadas y mejorar la seguridad y eficiencia en la aviación.
 
 
-## Material de apoyo
-- ¡Todos los Workshops de esta etapa serán de gran utilidad para tener un proyecto exitoso!
-- [Como hacer un EDA](https://medium.com/nerd-for-tech/how-to-do-some-basic-eda-a-guide-for-dummies-d76d9a82242c)
-- [Define your KPIs](https://medium.com/swlh/define-your-kpis-1a2072f1435)
-- [Como ejecutar scripts en power BI](https://learn.microsoft.com/es-es/power-bi/connect-data/desktop-python-scripts)
+## **Transformaciones y Analisis exploratorio de los Datos**
+
++ Durante el proceso de análisis como Data Analyst, se realizaron diversas transformaciones en los datos relacionados con los accidentes de aeronaves. A continuación se detallan las transformaciones específicas llevadas a cabo:
+
++ Cambio de valores raros por nulos: Se identificaron valores que parecían ser atípicos o inconsistentes y se los reemplazó por valores nulos. Esto permitió asegurar la coherencia de los datos y evitar distorsiones en el análisis.
+
++ Eliminación de valores nulos: Se eliminaron aquellos registros que contenían valores nulos en variables clave que no se podían imputar o reemplazar de manera confiable. Esto ayudó a asegurar la integridad de los datos restantes utilizados en el análisis.
+
++ Imputación de valores nulos por promedio: Cuando se encontraron valores nulos en variables numéricas, se realizó una imputación utilizando el promedio de los valores existentes en esa variable. Esto permitió conservar la información general mientras se llenaban los valores faltantes.
+
++ Creación de una columna llamada "décadas": Se creó una nueva columna que agrupaba los años de los accidentes en categorías de décadas. Esto facilitó el análisis temporal y la identificación de patrones a lo largo del tiempo.
+
++ Creación de una columna llamada "sobrevivientes": Se creó una nueva columna que indicaba si hubo sobrevivientes en cada accidente. Esto se basó en la información disponible en el conjunto de datos, como el número de personas a bordo y el número de víctimas registradas.
+
++ Eliminación de columnas innecesarias: Se identificaron columnas que no eran relevantes para el análisis o que contenían información duplicada, y se eliminaron del conjunto de datos. Esto simplificó el conjunto de datos y se centró en las variables clave para el análisis.
+
++ Renombramiento de columnas: Se cambiaron los nombres de las columnas por otros más descriptivos y comprensibles. Esto facilitó la interpretación de los datos y mejoró la legibilidad del conjunto de datos.
+
++ Cambio de formato de algunas columnas: Se modificó el formato de ciertas columnas para asegurar la consistencia y facilitar su procesamiento. Por ejemplo, se cambiaron las fechas a un formato estándar y se ajustaron las unidades de medida en variables relevantes.
+
+Estas transformaciones permitieron obtener un conjunto de datos más limpio, coherente y preparado para el análisis posterior.
+
+## **Analisis Exploratorios de los Datos(EDA)**
+
+En el análisis exploratorio de datos (EDA, por sus siglas en inglés) realizado, se realizaron diversas visualizaciones para examinar las relaciones entre las variables en el conjunto de datos.
+
+Se crearon histogramas de las variables continuas, como "cantidad_fallecidos", para observar la distribución de sus valores. También se utilizaron gráficos de dispersión para explorar la relación entre "todos_abordo" y "cantidad_fallecidos", así como entre "todos_abordo" y "sobrevivientes".
+
+Estas visualizaciones permitieron obtener una comprensión inicial de los datos y revelar patrones o correlaciones potenciales. A través del análisis exploratorio, se pudo examinar la distribución de los valores y explorar las relaciones entre las variables seleccionadas.
+
+## **Creacion el Dashboard**
+
+Continué creando un dashboard en Power BI utilizando los datos analizados. A continuación, se describen las acciones realizadas:
+
+Importación de datos: Importé el conjunto de datos preprocesado y transformado en Power BI para su análisis y visualización.
+
+Diseño del dashboard: Diseñé dashboard, seleccionando los elementos visuales más relevantes y adecuados para presentar la información de manera clara y concisa.
+
+Selección de visualizaciones: Utilicé una variedad de visualizaciones disponibles en Power BI, como gráficos de barras, gráficos de líneas y tablas, para representar los datos de manera efectiva.
+
+Creación de medidas y cálculos: Implementé medidas y cálculos personalizados para obtener métricas adicionales y realizar análisis más avanzados. Esto incluyó la creación de medidas para calcular la cantidad de accidentes, el porcentaje de supervivientes, o la frecuencia de incidentes por décadas, entre otros.
+
+Filtros y segmentación: Agregué filtros y segmentaciones para permitir a los usuarios personalizar la visualización según sus necesidades y analizar los datos desde diferentes perspectivas.
+
+El resultado final fue un dashboard interactivo en Power BI que presentaba de manera clara y visualmente atractiva los hallazgos clave del análisis de los accidentes de aeronaves. Esto permitió a los usuarios explorar los datos, obtener información valiosa y tomar decisiones informadas basadas en la visualización de los datos.
+
+En el contexto de nuestra historia, queremos sugerir 4 KPI (Indicadores Clave de Desempeño) 
+
++ El primer KPI propuesto es el porcentaje de accidentes por tipo de aeronave. Este indicador es fundamental para evaluar el desempeño y la seguridad de diferentes tipos de aeronaves. El cálculo de este KPI implica determinar la proporción de accidentes que involucran a cada tipo de aeronave en relación con el total de accidentes registrados.
+
+    Este KPI proporciona información valiosa sobre la distribución de los accidentes en función de los distintos tipos de aeronaves. Al analizar estos porcentajes, se pueden identificar posibles tendencias o disparidades en términos de seguridad entre los diferentes modelos o categorías de aeronaves.
+
++ El segundo KPI propuesto es el porcentaje de accidentes por tipo de operador. Este indicador es esencial para evaluar la seguridad y el desempeño de diferentes operadores en la industria de la aviación. El cálculo de este KPI implica determinar la proporción de accidentes que involucran a cada tipo de operador en relación con el total de accidentes registrados.
+
+    Este KPI proporciona información valiosa sobre la distribución de los accidentes en función de los diferentes operadores.
+
++ El tercer KPI propuesto es la tasa de supervivencia con un objetivo anual del 5%. Este indicador es esencial para evaluar la eficacia de las medidas de seguridad y los protocolos de emergencia en situaciones de accidente o incidente en la aviación. La tasa de supervivencia se calcula como el porcentaje de personas que sobreviven a un accidente en comparación con el total de personas involucradas en el incidente.
+
+    El objetivo anual del 5% establece una meta clara para aumentar la tasa de supervivencia y garantizar que se tomen medidas para mejorar la seguridad y el bienestar de los pasajeros y la tripulación en caso de un incidente. Este objetivo fomenta la adopción de medidas preventivas, la capacitación en seguridad y los estándares de respuesta ante emergencias más efectivos.
+
++ El cuarto KPI propuesto es la tasa de mortalidad en accidentes aéreos, con el objetivo de reducirla en un 5% a nivel anual. Para lograr este objetivo, se implementaron medidas y estrategias efectivas con el fin de mejorar la seguridad en la industria de la aviación.
+
+## **Conclución**
+
+En conclusión, el análisis exploratorio de datos (EDA) y la creación del dashboard en Power BI nos brindaron una comprensión profunda de los accidentes de aeronaves a lo largo de los años. A través del EDA, pudimos identificar patrones, tendencias y relaciones significativas en los datos, lo que nos permitió obtener información valiosa sobre este tema.
+
+Mediante la transformación de los datos, eliminando valores raros y nulos, imputando valores faltantes y creando nuevas columnas, logramos tener un conjunto de datos limpio y coherente para nuestro análisis. Además, renombramos las columnas y cambiamos el formato de algunas variables para mejorar la comprensión y facilitar su procesamiento.
+
+El dashboard creado en Power BI fue una herramienta eficaz para visualizar y presentar los resultados del análisis de manera intuitiva y accesible. Con una variedad de visualizaciones interactivas y opciones de filtrado, los usuarios pudieron explorar los datos y obtener información clave de forma rápida y efectiva.
 
 
-
-## ***Recomendaciones finales***
-
-¡No debes mostrar nada de código en la exposición! Te recomendamos el workshop *From Data to Viz* para que te quede más claro la dinámica y lo que se espera de tu demo.
-
-Recordamos que seas puntuales y pruebes el correcto funcionamiento de las herramientas empleadas antes de ingresar a la meet.
-
-La **DEMO**, donde defenderás tu proyecto, se realizará el día jueves o viernes. Debes estar atent@ a tu *calendar* para ver qué día y horario te corresponde. 
-
-Tendrá una duración total máxima de 30 minutos, de los cuales **sólo 10 minutos serán para su presentación**.  Es importante que sepas **gestionar bien tu tiempo** y tengas un speech ya preparado de 10 minutos, ya que el tiempo restante será dedicado a la corrección, revisión de repositorio y feedback por parte del Henry Mentor.
-
-
-## Disclaimer
-De parte del equipo de Henry se quiere aclarar y remarcar que los fines de los proyectos propuestos son exclusivamente pedagógicos, con el objetivo de realizar proyectos que simulan un entorno laboral, en el cual se trabajan diversas temáticas ajustadas a la realidad. No reflejan necesariamente la filosofía y valores de la organización. Además, Henry no alienta ni tampoco recomienda a los alumnos y/o cualquier persona leyendo los repositorios (y entregas de proyectos) que tomen acciones en base a los datos que pudieran o no haber recabado. Toda la información expuesta y resultados obtenidos en los proyectos nunca deben ser tomados en cuenta para la toma real de decisiones (especialmente en la temática de finanzas, salud, política, etc.).
-  
-<p align='center'>
-<img src ="https://media.giphy.com/media/BpGWitbFZflfSUYuZ9/giphy.gif" height=250>
-<p>
